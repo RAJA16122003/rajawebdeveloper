@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(images/infosys6.jpg);
+}
+h1{
+    text-align: center;
+    color: #00a2ff;
+    font-family: cursive;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+.column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px 4px;
+    
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 10px solid #fff;
+    border: width 10px;
+}
+.column img:hover{
+    
+    box-shadow: 4px 4px 5px rgba(0.884, 0, 0, 0.884);
+    transition: .5s;
+    
+    
+}
+@media screen and (max-width:800px) {
+.column{
+    flex:50%;
+    max-width: 50%;
+}
+}
